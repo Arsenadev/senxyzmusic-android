@@ -1,0 +1,37 @@
+name: Feature request
+description: Suggest an idea for SenxyzMusic
+labels: [enhancement]
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched and found no existing feature request for this.
+          required: true
+        - label: This request covers exactly one feature.
+          required: true
+        - label: The title clearly describes the feature.
+          required: true
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature description
+      description: What should the feature do? Where in the app would it appear?
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why do you want this?
+      description: What problem does it solve or what experience does it improve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional information
+      description: Screenshots, mockups, or references from other apps.

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Glow ellipse behind waveform -->
+    <path android:fillColor="#6D4FFF" android:fillAlpha="0.10"
+        android:pathData="M35,100 a65,28,0,1,0,130,0 a65,28,0,1,0,-130,0 z"/>
+
+    <!-- Halo around dot accent -->
+    <path android:fillColor="#A78BFA" android:fillAlpha="0.18"
+        android:pathData="M91,38 a9,9,0,1,0,18,0 a9,9,0,1,0,-18,0 z"/>
+    <!-- Dot accent top center -->
+    <path android:fillColor="#A78BFA"
+        android:pathData="M95,38 a5,5,0,1,0,10,0 a5,5,0,1,0,-10,0 z"/>
+
+    <!-- 9 waveform bars — vertically centered around y=100 -->
+    <path android:fillColor="#A78BFA" android:fillAlpha="0.4"
+        android:pathData="M40,84 a4,4,0,0,1,4,4 v24 a4,4,0,0,1,-4,4 h0 a4,4,0,0,1,-4,-4 v-24 a4,4,0,0,1,4,-4 z"/>
+    <path android:fillColor="#A78BFA" android:fillAlpha="0.6"
+        android:pathData="M55,73 a4,4,0,0,1,4,4 v46 a4,4,0,0,1,-4,4 h0 a4,4,0,0,1,-4,-4 v-46 a4,4,0,0,1,4,-4 z"/>
+    <path android:fillColor="#A78BFA" android:fillAlpha="0.8"
+        android:pathData="M70,62 a4,4,0,0,1,4,4 v68 a4,4,0,0,1,-4,4 h0 a4,4,0,0,1,-4,-4 v-68 a4,4,0,0,1,4,-4 z"/>
+    <path android:fillColor="#A78BFA"
+        android:pathData="M85,52 a4,4,0,0,1,4,4 v88 a4,4,0,0,1,-4,4 h0 a4,4,0,0,1,-4,-4 v-88 a4,4,0,0,1,4,-4 z"/>
+    <path android:fillColor="#A78BFA"
+        android:pathData="M100,45 a4,4,0,0,1,4,4 v102 a4,4,0,0,1,-4,4 h0 a4,4,0,0,1,-4,-4 v-102 a4,4,0,0,1,4,-4 z"/>
+    <path android:fillColor="#A78BFA"
+        android:pathData="M115,52 a4,4,0,0,1,4,4 v88 a4,4,0,0,1,-4,4 h0 a4,4,0,0,1,-4,-4 v-88 a4,4,0,0,1,4,-4 z"/>
+    <path android:fillColor="#A78BFA" android:fillAlpha="0.8"
+        android:pathData="M130,62 a4,4,0,0,1,4,4 v68 a4,4,0,0,1,-4,4 h0 a4,4,0,0,1,-4,-4 v-68 a4,4,0,0,1,4,-4 z"/>
+    <path android:fillColor="#A78BFA" android:fillAlpha="0.6"
+        android:pathData="M145,73 a4,4,0,0,1,4,4 v46 a4,4,0,0,1,-4,4 h0 a4,4,0,0,1,-4,-4 v-46 a4,4,0,0,1,4,-4 z"/>
+    <path android:fillColor="#A78BFA" android:fillAlpha="0.4"
+        android:pathData="M160,84 a4,4,0,0,1,4,4 v24 a4,4,0,0,1,-4,4 h0 a4,4,0,0,1,-4,-4 v-24 a4,4,0,0,1,4,-4 z"/>
+
+    <!-- Baseline -->
+    <path android:fillColor="#A78BFA" android:fillAlpha="0.5"
+        android:pathData="M28,160 h144 v3 h-144 z"/>
+
+</vector>

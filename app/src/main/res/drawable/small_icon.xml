@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 5-bar Senzy waveform — alpha mask, works for notification small icon -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M3,10 a1,1,0,0,1,1,1 v2 a1,1,0,0,1,-1,1 h0 a1,1,0,0,1,-1,-1 v-2 a1,1,0,0,1,1,-1 z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M7,7 a1,1,0,0,1,1,1 v8 a1,1,0,0,1,-1,1 h0 a1,1,0,0,1,-1,-1 v-8 a1,1,0,0,1,1,-1 z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M11,4 a1,1,0,0,1,1,1 v14 a1,1,0,0,1,-1,1 h0 a1,1,0,0,1,-1,-1 v-14 a1,1,0,0,1,1,-1 z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M15,7 a1,1,0,0,1,1,1 v8 a1,1,0,0,1,-1,1 h0 a1,1,0,0,1,-1,-1 v-8 a1,1,0,0,1,1,-1 z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M19,10 a1,1,0,0,1,1,1 v2 a1,1,0,0,1,-1,1 h0 a1,1,0,0,1,-1,-1 v-2 a1,1,0,0,1,1,-1 z"/>
+</vector>

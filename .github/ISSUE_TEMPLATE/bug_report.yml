@@ -1,0 +1,91 @@
+name: Bug report
+description: Report a bug to help us improve SenxyzMusic
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Before submitting
+        - Search existing issues first — duplicates are closed without response
+        - Make sure you're on the **latest release**
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I can reproduce this bug on the [latest build](https://github.com/Arsenadev/senxyzmusic-android/releases/latest).
+          required: true
+        - label: I searched and found no existing open or closed issue for this bug.
+          required: true
+        - label: This report covers exactly ONE bug.
+          required: true
+        - label: The title clearly describes the bug.
+          required: true
+        - label: This report is written in English.
+          required: true
+
+  - type: textarea
+    id: reproduce-steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Tap on '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      placeholder: "What should have happened..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      placeholder: "What actually happened..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: screen-media
+    attributes:
+      label: Screenshots / Screen recording
+      description: Attach images or video if it helps explain the bug.
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Attach a logcat recording if possible. Use [LogFox](https://github.com/F0x1d/LogFox) + [Shizuku](https://shizuku.rikka.app/) to capture logs.
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: SenxyzMusic version
+      description: Found in Settings → About
+      placeholder: "e.g. 13.5.0"
+    validations:
+      required: true
+
+  - type: input
+    id: android-version
+    attributes:
+      label: Android version
+      placeholder: "e.g. Android 14"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional information
+      placeholder: Device model, custom ROM, etc.
