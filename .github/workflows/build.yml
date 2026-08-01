@@ -27,9 +27,6 @@ jobs:
           - variant: foss
             variantName: Foss
             apkName: SenxyzMusic-foss.apk
-          - variant: gms
-            variantName: Gms
-            apkName: SenxyzMusic-gms.apk
 
     steps:
       - name: Checkout repository
