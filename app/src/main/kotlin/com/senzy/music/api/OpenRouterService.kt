@@ -1,5 +1,5 @@
 /**
- * Senzy Music Project (C) 2026
+ * SenxyzMusic Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -172,7 +172,7 @@ Output MUST be a JSON array with EXACTLY $lineCount strings."""
                                 }
                             }.addHeader("Content-Type", "application/json")
                             .addHeader("HTTP-Referer", "https://github.com/Arsenadev/senxyzmusic-android")
-                            .addHeader("X-Title", "Senzy Music")
+                            .addHeader("X-Title", "SenxyzMusic")
                             .post(jsonBody.toString().toRequestBody(JSON))
                             .build()
 
@@ -345,7 +345,7 @@ Output MUST be a JSON array with EXACTLY $lineCount strings."""
                             .addHeader("Authorization", "Bearer ${apiKey.trim()}")
                             .addHeader("Content-Type", "application/json")
                             .addHeader("HTTP-Referer", "https://github.com/Arsenadev/senxyzmusic-android")
-                            .addHeader("X-Title", "Senzy Music")
+                            .addHeader("X-Title", "SenxyzMusic")
                             .post(body.toString().toRequestBody(JSON))
                             .build()
                     }
@@ -453,7 +453,7 @@ Output MUST be a JSON array with EXACTLY $lineCount strings."""
                             .addHeader("Authorization", "Bearer ${apiKey.trim()}")
                             .addHeader("Content-Type", "application/json")
                             .addHeader("HTTP-Referer", "https://github.com/Arsenadev/senxyzmusic-android")
-                            .addHeader("X-Title", "Senzy Music")
+                            .addHeader("X-Title", "SenxyzMusic")
                             .post(body.toString().toRequestBody(JSON))
                             .build()
                     }

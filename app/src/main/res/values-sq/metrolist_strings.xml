@@ -49,7 +49,7 @@
     <string name="plays">Po luan</string>
     <string name="casting_to">Duke ndarë në %s</string>
     <string name="progress_percent">Progres %s%%</string>
-    <string name="listening_to_metrolist">Duke dëgjuar në Senzy Music</string>
+    <string name="listening_to_metrolist">Duke dëgjuar në SenxyzMusic</string>
     <string name="open">Hap</string>
     <string name="failed_to_create_image">Dështoi në krijimin e imazhit %s</string>
     <string name="close_chip">Mbyll</string>
@@ -230,6 +230,6 @@
     <string name="connected_users">Përdorues të lidhur</string>
     <string name="enter_username">Fut një emër përdoruesi</string>
     <string name="enter_room_code">Fut një kod dhome</string>
-    <string name="metrolist">SENZY MUSIC</string>
+    <string name="metrolist">SenxyzMusic</string>
     <string name="android_auto">Android Auto</string>
 </resources>

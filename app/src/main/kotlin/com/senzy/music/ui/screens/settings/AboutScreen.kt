@@ -1,5 +1,5 @@
 /**
- * Senzy Music Project (C) 2026
+ * SenxyzMusic Project (C) 2026
  * Licensed under GPL-3.0 | See git history for contributors
  */
 
@@ -105,22 +105,16 @@ private data class CommunityLink(
 private val leadDeveloper = Contributor(
     name = "xsenzy",
     roleRes = R.string.credits_lead_developer,
-    githubHandle = "Arsenadev",
+    githubHandle = "senaczk",
     polygon = MaterialShapes.Cookie9Sided,
     favoriteSongVideoId = null
 )
 
-@OptIn(ExperimentalMaterial3ExpressiveApi::class)
-private val collaborators = listOf(
-    Contributor(name = "Oxyx", roleRes = R.string.credits_collaborator, githubHandle = "Arsenadev", polygon = MaterialShapes.Cookie4Sided, favoriteSongVideoId = null),
-)
 
 private val communityLinks = listOf(
-    CommunityLink(R.string.credits_github, R.drawable.github, "https://github.com/Arsenadev"),
-    CommunityLink(R.string.credits_website, R.drawable.info, "https://www.senxyzmusic.biz.id"),
+    CommunityLink(R.string.credits_github, R.drawable.github, "https://github.com/senaczk"),
+    CommunityLink(R.string.credits_website, R.drawable.info, "https://www.xsenavuck.biz.id"),
     CommunityLink(R.string.credits_telegram, R.drawable.telegram, "https://whatsapp.com/channel/0029VbCyzd99Bb5sXWGwGE29"),
-    CommunityLink(R.string.credits_view_repo, R.drawable.github, "https://github.com/Arsenadev/senxyzmusic-android"),
-    CommunityLink(R.string.credits_license_name, R.drawable.info, "https://github.com/Arsenadev/senxyzmusic-android/blob/main/LICENSE")
 )
 
 private fun handleEasterEggClick(
@@ -191,19 +185,19 @@ private fun DeveloperSocials(
         horizontalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         FilledTonalButton(
-            onClick = { uriHandler.openUri("https://senzyapp.my.id") },
+            onClick = { uriHandler.openUri("https://www.xsenavuck.biz.id") },
             modifier = Modifier.weight(1f).height(48.dp)
         ) {
             Icon(painterResource(R.drawable.language), contentDescription = null)
         }
         FilledTonalButton(
-            onClick = { uriHandler.openUri("https://github.com/Arsenadev") },
+            onClick = { uriHandler.openUri("https://github.com/senaczk") },
             modifier = Modifier.weight(1f).height(48.dp)
         ) {
             Icon(painterResource(R.drawable.github), contentDescription = null)
         }
         FilledTonalButton(
-            onClick = { uriHandler.openUri("https://tiktok.com/@ymzzzoff") },
+            onClick = { uriHandler.openUri("https://instagram.com/w.xsena") },
             modifier = Modifier.weight(1f).height(48.dp)
         ) {
             Icon(painterResource(R.drawable.instagram), contentDescription = null)
@@ -266,8 +260,6 @@ fun AboutScreen(
         
                 Column {
                     val metrolistName = stringResource(R.string.metrolist)
-                        .lowercase(Locale.getDefault())
-                        .replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
 
                     Text(
                         text = metrolistName,
@@ -390,7 +382,7 @@ fun AboutScreen(
                 Spacer(Modifier.height(16.dp))
                 
                 Button(
-                    onClick = { uriHandler.openUri("https://saweria.co/FellMD") },
+                    onClick = { uriHandler.openUri("https://saweria.co/xsenavuck") },
                     modifier = Modifier.fillMaxWidth(),
                     shape = CircleShape,
                     colors = ButtonDefaults.buttonColors(
@@ -405,72 +397,6 @@ fun AboutScreen(
             }
         }
 
-        Spacer(Modifier.height(32.dp))
-        
-        // Collaborators section - back to Material3SettingsGroup
-        Material3SettingsGroup(
-            title = stringResource(R.string.credits_collaborators_section),
-            items = collaborators.map { contributor ->
-                Material3SettingsItem(
-                    leadingContent = {
-                        var clickCount by remember(contributor.name) { mutableIntStateOf(0) }
-                        ContributorAvatar(
-                            avatarUrl = contributor.avatarUrl,
-                            sizeDp = 48,
-                            shape = contributor.polygon?.toShape() ?: CircleShape,
-                            contentDescription = contributor.name,
-                            onClick = {
-                                handleEasterEggClick(
-                                    clickCount = clickCount,
-                                    favoriteSongVideoId = contributor.favoriteSongVideoId,
-                                    coroutineScope = coroutineScope,
-                                    snackbarHostState = snackbarHostState,
-                                    playerConnection = playerConnection,
-                                    wannaPlayStr = wannaPlayStr,
-                                    yeahStr = yeahStr,
-                                    onCountUpdate = { clickCount = it }
-                                )
-                            }
-                        )
-                    },
-                    title = { Text(text = contributor.name, fontWeight = FontWeight.SemiBold) },
-                    description = { Text(stringResource(contributor.roleRes)) },
-                    trailingContent = {
-                        Row(
-                            horizontalArrangement = Arrangement.spacedBy(8.dp),
-                            verticalAlignment = Alignment.CenterVertically
-                        ) {
-                            if (contributor.sponsorUrl != null) {
-                                Surface(
-                                    onClick = { uriHandler.openUri(contributor.sponsorUrl) },
-                                    shape = CircleShape,
-                                    color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.3f),
-                                    modifier = Modifier.size(36.dp)
-                                ) {
-                                    Box(contentAlignment = Alignment.Center) {
-                                        Icon(
-                                            painter = painterResource(R.drawable.buymeacoffee),
-                                            contentDescription = null,
-                                            modifier = Modifier.size(20.dp),
-                                            tint = MaterialTheme.colorScheme.onSurfaceVariant
-                                        )
-                                    }
-                                }
-                            }
-                            Icon(
-                                painter = painterResource(R.drawable.github),
-                                contentDescription = null,
-                                modifier = Modifier.size(24.dp),
-                                tint = MaterialTheme.colorScheme.onSurfaceVariant
-                            )
-                        }
-                    },
-                    onClick = { uriHandler.openUri(contributor.githubUrl) }
-                )
-            }
-        )
-
-        Spacer(Modifier.height(32.dp))
 
         // Community & Info using standard Group
         Material3SettingsGroup(

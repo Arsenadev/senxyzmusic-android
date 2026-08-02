@@ -1,4 +1,4 @@
-Material 3 YouTube Music client for Android
+Material 3 music streaming client for Android
 
 Features:
 

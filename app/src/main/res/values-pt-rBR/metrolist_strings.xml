@@ -184,7 +184,7 @@
     <string name="google_cast">Transmitir via Google Cast</string>
     <string name="google_cast_description">Transmitir áudio para o Chromecast e outros dispositivos compatíveis</string>
     <string name="last_fm_send_likes">Sincronizar Amado e Desamado</string>
-    <string name="last_fm_send_likes_description">Amar ou desamar músicas no Last.fm quanto você as curte ou descurte no Senzy Music</string>
+    <string name="last_fm_send_likes_description">Amar ou desamar músicas no Last.fm quanto você as curte ou descurte no SenxyzMusic</string>
     <string name="logging_in">Fazendo login…</string>
     <string name="hide_video_songs">Ocultar videoclipes</string>
     <string name="details_desc">Ver os detalhes da música</string>
@@ -252,12 +252,12 @@
     <string name="wrapped_intro_title">SENZY MUSIC</string>
     <string name="wrapped_intro_subtitle">É hora de checar o que você tem ouvido por todo esse ano…</string>
     <string name="wrapped_intro_button">vamos lá!</string>
-    <string name="wrapped_logo_content_description">Senzy Music Logo</string>
+    <string name="wrapped_logo_content_description">SenxyzMusic Logo</string>
     <string name="wrapped_year">2025</string>
     <string name="wrapped_ready_title">SUA RETROSPECTIVA ESTÁ PRONTA!</string>
     <string name="wrapped_ready_subtitle">Hora de checar o que você adorou em todo esse ano…</string>
     <string name="wrapped_thank_you">Obrigado por ouvir!</string>
-    <string name="wrapped_special_thanks">Agradecimentos especiais ao xsenzy por criar o Senzy Music</string>
+    <string name="wrapped_special_thanks">Agradecimentos especiais ao xsenzy por criar o SenxyzMusic</string>
     <string name="wrapped_close">Fechar Retrospectiva</string>
     <string name="wrapped_playlist_title">Sua Retrospectiva %s</string>
     <string name="wrapped_create_playlist">Criar playlist</string>
@@ -285,7 +285,7 @@
     <string name="import_error_title">Erro de importação</string>
     <string name="casting_to">Transmitir para %s</string>
     <string name="progress_percent">Progresso %s%%</string>
-    <string name="listening_to_metrolist">Ouvindo Senzy Music</string>
+    <string name="listening_to_metrolist">Ouvindo SenxyzMusic</string>
     <string name="open">Abrir</string>
     <string name="failed_to_create_image">Falha ao criar a imagem: %s</string>
     <string name="copied_title">Título copiado</string>
@@ -298,7 +298,7 @@
     <string name="system_equalizer">Equalizador do Sistema</string>
     <string name="album_art">Capa do Álbum</string>
     <string name="no_song_playing">Nenhuma música tocando</string>
-    <string name="tap_to_open">Clique para abrir o Senzy Music</string>
+    <string name="tap_to_open">Clique para abrir o SenxyzMusic</string>
     <string name="previous">Anterior</string>
     <string name="play_pause">Tocar/Pausar</string>
     <string name="next">Próximo</string>
@@ -334,7 +334,7 @@
     <string name="error_eq_apply_failed">Falhou a aplicar o perfil do equalizador: %1$s</string>
     <string name="error_playback_failed">Falha na reprodução</string>
     <string name="not_playing">Nenhuma música tocando</string>
-    <string name="tap_to_play">Clique para abrir o Senzy Music</string>
+    <string name="tap_to_play">Clique para abrir o SenxyzMusic</string>
     <string name="widget_music_player">Reprodutor de música</string>
     <string name="widget_turntable">Toca-discos</string>
     <string name="together">Juntos</string>
@@ -372,7 +372,7 @@
     <string name="clear_recognition_history_confirm">Tem certeza que quer limpar todo o histórico de reconhecimento?</string>
     <string name="delete_from_history">Apagar do histórico</string>
     <string name="re_listen">Ouvir novamente</string>
-    <string name="play_on_app">Tocar no Senzy Music</string>
+    <string name="play_on_app">Tocar no SenxyzMusic</string>
     <string name="listen_together_auto_approval_joins_desc">Aprovar pedidos de entrada automaticamente sem analisá-los manualmente</string>
     <string name="listen_together_sync_volume">Sincronizar volume do anfitrião</string>
     <string name="listen_together_sync_volume_desc">Os Participantes irão combinar o nível de volume ao do anfitrião</string>
@@ -460,7 +460,7 @@
     <string name="crash_description">Ocorreu um erro inesperado. Por favor, compartilhe o relatório de falha para nos ajudar a corrigir o problema</string>
     <string name="crash_share_logs">Compartilhar registros</string>
     <string name="crash_share_title">Compartilhar relatório de falha</string>
-    <string name="crash_report_subject">Relatório de acidente da Senzy Music</string>
+    <string name="crash_report_subject">Relatório de acidente da SenxyzMusic</string>
     <string name="crash_close">Fechar</string>
     <string name="crash_no_log">Nenhum registro de falha disponível</string>
     <string name="palette_dynamic">Dinâmico</string>
@@ -531,7 +531,7 @@
     <string name="discord_activity_listening">Ouvindo</string>
     <string name="discord_activity_watching">Assistindo</string>
     <string name="discord_activity_competing">Competindo</string>
-    <string name="discord_information_warning">Senzy Music envia a música tocando no momento para a Gateway do Discord para atualizar a sua Rich Presence. Todos os fatos vão diretamente do seu dispositivo para o Discord — nenhum servidor de terceiros está envolvido. Seu token continua no dispositivo e não é compartilhado. De qualquer maneira, usar um token para conexões de Gateway não é suportado oficialmente e pode violar os termos de serviço do Discord. Prossiga por sua responsabilidade!</string>
+    <string name="discord_information_warning">SenxyzMusic envia a música tocando no momento para a Gateway do Discord para atualizar a sua Rich Presence. Todos os fatos vão diretamente do seu dispositivo para o Discord — nenhum servidor de terceiros está envolvido. Seu token continua no dispositivo e não é compartilhado. De qualquer maneira, usar um token para conexões de Gateway não é suportado oficialmente e pode violar os termos de serviço do Discord. Prossiga por sua responsabilidade!</string>
     <string name="discord_rpc_preview">Visualização de Rich Presence</string>
     <string name="discord_presence">Presença</string>
     <string name="discord_connect_description">Entre com o Discord para compartilhar o que você está ouvindo</string>
@@ -611,7 +611,7 @@
     <string name="like_what_i_do">Gosta do meu trabalho?</string>
     <string name="buy_mo_a_coffee">Me compre um café!</string>
     <string name="community_and_info">Comunidade e Informações</string>
-    <string name="metrolist">SENZY MUSIC</string>
+    <string name="metrolist">SenxyzMusic</string>
     <string name="wanna_play_favorite_song">Quer tocar sua música favorita?</string>
     <string name="yeah">Sim!</string>
     <string name="stands_with_palestine">Esse projeto apoia a Palestina 🇵🇸</string>

@@ -4,7 +4,7 @@
 
 # SenxyzMusic
 
-**A sleek YouTube Music client for Android — no ads, no subscriptions, just music.**
+**A sleek music streaming client for Android — no ads, no subscriptions, just music.**
 
 <br/>
 
